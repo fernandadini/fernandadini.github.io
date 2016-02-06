@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #181818;
+  font-family: 'Lora', serif;
+}
+h1, h2, h3, p, dt, dd {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.9em;
+}
+h3 {
+  font-size: 1.6em;
+}
+p, dd {
+  color: #666;
+}
+a {
+  color: white;
+  text-decoration: none;
+  transition: all .3s;
+}
+a:hover {
+  color: #666;
+  transition: all .3s;
+}
+header,
+section,
+footer {
+  width: 80%;
+  padding: 0 10%;
+}
+.experience {
+  padding: 8% 10%;
+}
+header {
+  padding: 8% 10% 5% 10%;
+}
+h1 {
+  font-size: 3.4em;
+  letter-spacing: -3px;
+}
+p {
+  padding: 0 5% 0 0;
+}
+header {
+  display: flex;
+  align-items: center;
+}
+dl {
+  flex: 1;
+}
+header h1,
+header a {
+  display: inline-block;
+  vertical-align: middle;
+  flex: 1;
+}
+header aside {
+  text-align: left;
+}
+header aside div {
+  color: #666;
+  margin: -15px 0 0 0;
+}
+header aside a {
+  color: #999;
+  font-size: .8em;
+}
+header aside span {
+  font-size: .9em;
+  margin: 0 0 0 10px;
+}
+header nav {
+  flex: 1;
+  text-align: right;
+}
+header .download {
+  color: white;
+  font-size: .8em;
+  text-decoration: none;
+  padding: 15px 20px;
+  transition: all .5s;
+  border: 1px solid #666;
+}
+header .download:hover {
+  font-size: .85em;
+  padding: 16px 21px;
+  transition: all .5s;
+}
+footer div,
+section div {
+  display: flex;
+}
+footer span,
+footer a {
+  float: left;
+  clear: both;
+}
+footer p {
+  padding: 8% 0;
+}
+footer a {
+  color: white;
+}
+.traits {
+  padding: 5% 10%;
+}
+.traits dt {
+  padding: 150px 0 0 0;
+  background-position: -15px top;
+  background-repeat: no-repeat;
+}
+.traits dl:nth-child(1) dt {
+  background-image: url(../img/2d.jpg);
+}
+.traits dl:nth-child(2) dt {
+  background-image: url(../img/3d.jpg);
+}
+.traits dl:nth-child(3) dt {
+  background-image: url(../img/x.jpg);
+}
+.vimeo {
+  width: 80%;
+  padding: 5% 10%;
+}
+.vimeo iframe {
+  width: 100%;
+}
+.experience {
+  background: url(../img/rgb.jpg) 10px 0 no-repeat;
+  line-height: 1.5em;
+}
+.traits {
+  display: flex;
+}
+.fa {
+  color: white;
+  font-size: 3.8em;
+  margin: 0 45px 0 0;
+}

@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+header {
+	background: #a4fbfa;
+	text-align: center;
+}
+section {
+	text-align: center;
+}
+h1, h2 {
+	color: #958146;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 400;
+}
+h1 {
+	background: url('../img/ornament.png') center 70px no-repeat;
+	font-size: 7em;
+	text-shadow: 2px 2px 0 #ffc1f8;
+	padding: 100px 0 0 0;
+}
+h2 {
+	font-size: 3em;
+	line-height: 3em;
+}
+h3, p {
+	color: white;
+	font-weight: 400;
+}
+iframe {
+	margin: 0 0 150px 0;
+}
+footer {
+	background: #a06b17;
+	padding: 80px 0;
+	text-align: center;
+}
+footer h2 {
+	display: inline;
+	color: white;
+	font-size: 4em;
+	line-height: 2em;
+}
+footer .fa-linkedin-square {
+	color: white;
+	font-size: 4em;
+	margin: 0 0 0 10px;
+	text-decoration: none;
+}
+footer .email,
+footer p {
+	font-size: 1.5em;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	text-decoration: none;
+}
+footer p {
+	font-style: italic;
+}
+address {
+	color: white;
+	font-style: normal;
+	padding: 50px 0 0 0;
+}
+footer .email {
+	display: block;
+	clear: both;
+	font-size: 1.7em;
+}
+.video h3 {
+	color: #958146;
+	font-size: 2em;
+	padding: 0 0 100px 0;
+}
+.video {
+	background: #a4fbfa;
+}
+.latest-work {
+	background: url('../img/slugterra.jpg') right top  no-repeat;
+}
+.latest-work aside {
+	background: #79c2b2;
+	width: 30%;
+	text-align: left;
+	padding: 50px;
+	padding-top: 200px;
+}
