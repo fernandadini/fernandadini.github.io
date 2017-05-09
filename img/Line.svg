@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="139px" viewBox="0 0 139 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="iPad-Pro-Portrait" transform="translate(-194.000000, -117.000000)" stroke="url(#linearGradient-1)" stroke-width="3" fill="url(#linearGradient-1)">
+            <g id="Line" transform="translate(198.000000, 123.000000)">
+                <path d="M1,127.691026 L1,0.264689284"></path>
+                <path id="Line-decoration-1" d="M1,0.264689284 L-2,11.0646893 L4,11.0646893 L1,0.264689284 Z"></path>
+                <path d="M2,128 L129.426336,128"></path>
+                <path id="Line-decoration-1" d="M129.426336,128 L118.626336,125 L118.626336,131 L129.426336,128 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

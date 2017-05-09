@@ -1,0 +1,120 @@
+body {
+  @include expandable;
+  position: fixed;
+  flex-direction: row;
+  * {
+    transition: .5s all;
+  }
+}
+
+h2 {
+  padding: $standardPadding;
+}
+
+aside {
+  padding: 0;
+  text-align: left;
+  h1 {
+    font-size: 2.5em !important;
+    padding-bottom: 0;
+    text-indent: 0;
+    &:before {
+      display: none;
+    }
+  }
+  h2 {
+    font-size: 2em;
+    text-align: left;
+    padding: $standardPadding $maxPadding;
+  }
+  h3 {
+    text-align: left;
+  }
+  &:hover {
+    h1 {
+      font-size: 9em !important;
+    }
+  }
+}
+
+section {
+  align-items: center;
+  justify-content: center;
+  header {
+    h2 {
+      font-size: 5em;
+    }
+    blockquote {
+      p {
+        padding-bottom: 0;
+      }
+    }
+  }
+  &:before {
+    display: block;
+  }
+}
+
+i {
+  display: inline-block !important;
+}
+
+article {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  header {
+    flex: 1;
+  }
+  ol, ul, nav {
+    display: flex;
+    flex: 1;
+    margin-top: 0;
+  }
+  li, a {
+    flex: 1;
+  }
+}
+
+ol {
+  flex-flow: columns;
+}
+
+dl {
+  padding: 0 $maxPadding;
+  margin: 0;
+  text-align: left;
+  dt {
+    span {
+      clear: both;
+    }
+  }
+  object {
+    height: 100px;
+  }
+  dd {
+    font-size: .9em;
+  }
+}
+
+.contact {
+  nav {
+    flex-direction: row;
+    a {
+      @include contact-link(4em);
+      margin: 0;
+      text-align: center;
+      &:hover {
+        color: white;
+        &:before {
+          transform: scale(1.4, 1.4)
+        }
+      }
+    }
+  }
+}

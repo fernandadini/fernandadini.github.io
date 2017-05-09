@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="137px" height="137px" viewBox="0 0 137 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>3d</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3d">
+            <path d="M6.5,129.5 L78.5,68.5" id="Line" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M78.5,68.5 L68.3205194,73.1923527 L72.1990223,77.7702578 L78.5,68.5 Z" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+            <g id="2d" transform="translate(0.000000, -1.000000)">
+                <text id="x" font-family="Times-Roman, Times" font-size="14" font-weight="normal" fill="#AA52FF">
+                    <tspan x="108" y="126.817518">x</tspan>
+                </text>
+                <text id="y" font-family="Times-Roman, Times" font-size="14" font-weight="normal" fill="#AA52FF">
+                    <tspan x="11" y="31.1240876">y</tspan>
+                </text>
+                <path d="M8.5,132.459854 L130.5,132.459854" id="Line" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+                <path id="Line-decoration-1" d="M130.5,132.459854 L119.7,129.459854 L119.7,135.459854 L130.5,132.459854 Z" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+                <path d="M5.5,132.459854 L5.5,9.56934307" id="Line" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+                <path id="Line-decoration-1" d="M5.5,9.56934307 L2.5,20.3693431 L8.5,20.3693431 L5.5,9.56934307 Z" stroke="#AA52FF" stroke-width="3" stroke-linecap="square"></path>
+            </g>
+            <text id="z" font-family="Times-Roman, Times" font-size="14" font-weight="normal" fill="#AA52FF">
+                <tspan x="56" y="74">z</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

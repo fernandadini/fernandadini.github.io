@@ -1,0 +1,13 @@
+@import 'variables'; //http://otaviopadovani.com/css/variables.scss
+@import 'extends'; //http://otaviopadovani.com/css/extends.scss
+@import 'animations'; //http://otaviopadovani.com/css/animations.scss
+@import 'mixins'; //http://otaviopadovani.com/css/mixins.scss
+@import 'reset'; //http://otaviopadovani.com/css/reset.scss
+
+/* Mobile first :) and DRY */
+
+@import 'general'; //http://otaviopadovani.com/css/general.scss
+
+@media only screen and (min-width: 800px) {
+  @import 'desktop'; //http://otaviopadovani.com/css/desktop.scss
+}

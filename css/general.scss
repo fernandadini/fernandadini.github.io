@@ -1,0 +1,192 @@
+body {
+  position: static;
+  display: flex;
+  color: white;
+  font-family: $font;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+h2 {
+  padding: $maxPadding*1.8 $maxPadding;
+}
+
+aside {
+  background: #333;
+  padding: $maxPadding*4 0;
+  text-align: center;
+  div {
+    padding: $maxPadding;
+    padding-bottom: 0;
+    h1, ul, aside {
+      display: inline-block;
+    }
+    ul {
+      padding: 5% 0;      
+    }
+    h1 {
+      @include logo($blue, $pink, $blue, none);
+      font-size: 7em;
+      vertical-align: middle;
+      
+    }
+    li {
+      display: inline-block;
+      a {
+        margin: 5%;
+        i {
+          background: linear-gradient($blue, $pink);
+          color: #333;
+          height: 15px;
+          width: 15px;
+          padding: 10px;
+          text-align: center;
+          border-radius: 50%;
+        }
+        &:hover {
+          i {
+            background: linear-gradient(ligthen($purple, 5%), ligthen($pink, 5%));
+          }
+        }
+      }      
+    }
+  }
+  h2 {
+    color: $pink;
+    font-size: 1.6em;
+    padding: $maxPadding;
+    text-align: center;
+  }
+  h3 {
+    color: $blue;
+    font-size: .9em;
+    font-weight: 400;
+    padding: 0 $maxPadding;
+    text-align: center;
+  }
+}
+
+section {
+  display: flex;
+  flex: 2;
+  header {
+    @include blockquote(-2deg);
+    flex: 1;
+    overflow: hidden;
+    h2 {
+      color: white;
+      font-size: 4em;
+    }
+    blockquote {
+      p {
+        padding-bottom: 10px;
+      }
+    }
+  }
+  &:before {
+    display: none;
+  }
+}
+
+i {
+  display: none !important;
+}
+
+article {
+  width: 100%;
+  ol, ul, nav {
+    margin-top: $maxPadding;
+  }
+}
+
+ol {
+  li {
+    display: flex;
+    align-items: center;
+    dl {
+      width: 100%;
+      min-height: 280px;
+      dt {
+        padding: 0;
+      }
+    }
+  }
+}
+
+dl {
+  flex-wrap: wrap;
+  margin: $maxPadding 0;
+  text-align: center;
+  dt {
+    width: 100%;
+    color: $purple;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0 $minimumPadding;
+    b {
+      @include text-gradient ($purple, $pink, white, none);
+      margin: 0 $standardPadding 0 0;
+      padding: 1px 0 0 0;
+    }
+    span, object {
+      display: inline-block;
+      clear: both;
+    }
+    span {
+      width: 100%;
+    }
+  }
+  dd {
+    display: inline-block;
+    padding: $minimumPadding;
+    margin: $minimumPadding;
+  }
+}
+
+.about {
+  @include color-scheme($blue, $purple);
+  position: relative;
+}
+
+.jobs {
+  @include color-scheme($pink, $blue);
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    width: 90%;
+    margin: 0 5% 2% 5%;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.contact {
+  @include color-scheme($purple, $pink);
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 $maxPadding 0;
+    a {
+      @include contact-link(5em);
+      margin: $maxPadding*2 0 0 0;
+    }
+  }
+
+  .fa-phone, .fa-linkedin, .fa-envelope {
+    &:before {
+      @extend .contact-gradient;
+    }
+  }
+}
