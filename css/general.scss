@@ -28,7 +28,7 @@ aside {
     }
     h1 {
       @include logo($blue, $pink, $blue, none);
-      font-size: 7em;
+      font-size: 4.5em;
       vertical-align: middle;
       
     }
